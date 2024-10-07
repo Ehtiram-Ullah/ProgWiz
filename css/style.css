@@ -1,0 +1,30 @@
+/*$ Index.html style  */
+@keyframes scroll {
+    0% { transform: translateY(100vh); }  /* Start below the screen */
+    100% { transform: translateY(-100vh); }  /* End above the screen */
+}
+.scroll-animation {
+    animation: scroll 10s linear infinite;
+    opacity: 1;
+}
+/*$ End Index.html style  */
+
+
+
+/*$ Prog_Basics style  */
+.cursor {
+    display: inline-block;
+    width: 2px;
+    background-color: #ffffff;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*$ End Prog_Basics style  */

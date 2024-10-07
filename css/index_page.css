@@ -1,8 +1,0 @@
-@keyframes scroll {
-    0% { transform: translateY(100vh); }  /* Start below the screen */
-    100% { transform: translateY(-100vh); }  /* End above the screen */
-}
-.scroll-animation {
-    animation: scroll 10s linear infinite;
-    opacity: 1;
-}
