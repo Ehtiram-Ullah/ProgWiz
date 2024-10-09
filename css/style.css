@@ -9,7 +9,31 @@
 }
 /*$ End Index.html style  */
 
+/*$ For main body   */
+body{
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
 
+    
+    --tw-gradient-from: #1e1b4b var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(30 27 75 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: rgb(49 46 129 / 0)  var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), #312e81 var(--tw-gradient-via-position), var(--tw-gradient-to);
+
+    --tw-gradient-to: #3730a3 var(--tw-gradient-to-position);
+
+    --tw-text-opacity: 1;
+    color: rgb(74 222 128 / var(--tw-text-opacity)) /* #4ade80 */;
+
+    height: 100vh;
+
+    overflow: hidden;
+    overflow-y: scroll;
+
+    position: relative;
+
+}
+/*$Ends For main body   */
 
 /*$ Prog_Basics style  */
 .cursor {
